@@ -4,5 +4,11 @@
  */
 
 var findLongestWord = function(words) {
-  return 0;
+  var length = 0;
+  words.forEach(function(word) {
+    if(word.length > length) {
+      length = word.length;
+    }
+  }, this);
+  return length;
 };

@@ -4,5 +4,11 @@
  */
 
 var filterLongWords = function(words, i) {
-  return [];
+  var longerWords = [];
+  words.forEach(function(word) {
+    if(word.length > i) {
+      longerWords.push(word);
+    }
+  }, this);
+  return longerWords;
 };

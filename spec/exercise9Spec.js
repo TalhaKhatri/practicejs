@@ -1,3 +1,5 @@
+import { isValidNumber } from 'libphonenumber-js';
+
 describe("telephoneCheck", function() {
 	
 	it("valid number with '-' seperator", function() {

@@ -11,6 +11,7 @@
  *
  */
 
+
 function telephoneCheck(str) {
-  return true;
+  return isValidNumber(str);
 }

@@ -3,5 +3,7 @@
  */
 
 var isPalindrome = function(word) {
-  return true;
+  if(word.split(" ").length > 1) return false;
+  var reverse = word.split("").reverse().join("");
+  return reverse == word;
 };

@@ -37,11 +37,11 @@ describe("checkDate", function() {
 	});
 
 	it("with valid date format", function() {
-		expect(checkDate("21/03/2016")).toBe("Valid Date");
+		expect(checkDate("21/03/2016")).toBe("Valid Date!");
 	});
 
 	it("with valid date format", function() {
-		expect(checkDate("14/02/1999")).toBe("Valid Date");
+		expect(checkDate("14/02/1999")).toBe("Valid Date!");
 	});
 
 });

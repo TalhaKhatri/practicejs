@@ -18,6 +18,7 @@
   "author": "Mashhood Rastgar",
   "license": "ISC",
   "dependencies": {
-    "grunt-contrib-watch": "^0.6.1"
+    "grunt-contrib-watch": "^0.6.1",
+    "libphonenumber-js": "^0.4.18"
   }
 }

@@ -12,5 +12,4 @@ describe("findLongestWord", function() {
   it("with two largest words being the same size", function() {
     expect(findLongestWord(['as', 'asas', 'dswd', 'as', 'a'])).toBe(4);
   });
-
 });

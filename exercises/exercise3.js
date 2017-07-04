@@ -4,5 +4,5 @@
  */
 
 var reverse = function(words) {
-  return '';
+  return words.split("").reverse().join("");
 };
